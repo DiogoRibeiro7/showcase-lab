@@ -1,0 +1,77 @@
+# === Python artifacts ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+*.pyd
+*.pyc
+*.manifest
+*.spec
+
+# === Virtual environment ===
+venv/
+ENV/
+env/
+.venv/
+
+# === Jupyter Notebooks checkpoints ===
+.ipynb_checkpoints/
+
+# === VSCode & PyCharm ===
+.vscode/
+.idea/
+
+# === Logs and temporary files ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# === Environment files ===
+.env
+.env.*
+
+# === Test artifacts ===
+htmlcov/
+.tox/
+.nox/
+coverage.*
+.cache/
+.pytest_cache/
+
+# === MyPy & Pyre type checker ===
+.mypy_cache/
+.pyre/
+
+# === Data files ===
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.xml
+*.parquet
+*.feather
+*.hdf5
+*.h5
+*.pkl
+*.joblib
+*.sav
+*.dat
+*.db
+
+# === Notebooks outputs (optional, if you want clean notebooks) ===
+**/*.ipynb
+
+# === OS-specific ===
+ehthumbs.db
+Icon?
+desktop.ini
