@@ -68,9 +68,6 @@ coverage.*
 *.dat
 *.db
 
-# === Notebooks outputs (optional, if you want clean notebooks) ===
-**/*.ipynb
-
 # === OS-specific ===
 ehthumbs.db
 Icon?
